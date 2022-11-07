@@ -24,3 +24,40 @@ def import_model(path):
     return loaded_model
 
 
+
+
+
+parse_udf = F.udf(..., T.IntegerType())
+class Age:
+    ...
+    def __eq__(self, other: Column):
+        return F.lit(self.age) == parse_udf(other)
+
+
+import re
+import pyspark.sql.functions as F
+import pyspark.sql.types as T
+
+def connect_to_pyspark(function):
+  def helper(age, other):
+    myUdf = F.udf(lambda item_from_other: function(age, item_from_other), T.BooleanType())
+    return myUdf(other)
+  return helper
+
+class Age:
+
+    def __init__(self, age):
+      self.age = 45
+
+    def __parse(self, other):
+      return int(''.join(re.findall(r'\d', other)))
+
+    @connect_to_pyspark
+    def __eq__(self, other):
+        return self.age == self.__parse(other)
+
+ages.withColumn("eq20", Age(20) == df.Age).show()
+
+
+
+
