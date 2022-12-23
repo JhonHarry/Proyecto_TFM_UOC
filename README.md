@@ -17,8 +17,11 @@ Hace parte del trabajo final del Master en Ciencia de datos de la Universitat Ob
 * **Code**: contiene el notebook usado para desarrollar el analisis descriptivo y los modelos de aprendizaje automatico.
 
 ## Instalación
+Para realizar la instalación del proyecto se requiere Python 3.9+ idealmente,
+además instalar los paquetes utilizando el siguiente comando en el entorno
+
 ```bash
-pip install requirements.txt
+pip install -r requirements.pip
 ```
 ```bash
 Library versions:
