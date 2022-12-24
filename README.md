@@ -3,7 +3,7 @@
 
 Este proyecto tiene como objetivo comparar diversos tipos de modelos clasificadores de algoritmos de aprendizaje automatico y comparar sus resultados para encontrar el mejor clasificador. El dataset utilizado se encuentra disponible en el sitio web de [Kaggle](https://www.kaggle.com/code/sandeshpatkar/auto-insurance-fraud/data) de manera publica.
 
-Hace parte del trabajo final del Master en Ciencia de datos de la Universitat Oberta de Catalunya
+Hace parte del trabajo final del Master en Ciencia de datos de la [Universitat Oberta de Catalunya - UOC](https://www.uoc.edu/portal/en/index.html).
 ## Autor
 
 - Jhon Harry Loaiza
