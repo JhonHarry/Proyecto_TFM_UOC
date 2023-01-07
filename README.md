@@ -1,5 +1,6 @@
 
 # Detección de fraude en reclamaciones de seguros de autos
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 Este proyecto tiene como objetivo comparar diversos tipos de modelos clasificadores de algoritmos de aprendizaje automatico y comparar sus resultados para encontrar el mejor clasificador. El dataset utilizado se encuentra disponible en el sitio web de [Kaggle](https://www.kaggle.com/code/sandeshpatkar/auto-insurance-fraud/data) de manera publica.
 
@@ -50,6 +51,6 @@ El contenido de este proyecto esta licencia bajo la Creative Commons Attribution
 
 
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
 
 
